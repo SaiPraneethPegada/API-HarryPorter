@@ -1,0 +1,55 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 191, 0);
+    width: 20px;
+}
+
+#maincontainer {
+    background-color: rgb(231, 231, 231);
+}
+
+#topSection {
+    background-image: linear-gradient(to left top, #3fc1c0ff, #20bac5ff, #00b2caff, #04a6c2ff, #0899baff, #0f80aaff, #16679aff, #1a5b92ff, #1c558eff, #1d4e89ff);
+}
+
+.card {
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.782);
+}
+
+@media (max-width: 1285px) {
+    .card {
+        width: 340px;
+    }
+}
+
+@media (max-width: 1099px) {
+    .card {
+        width: 300px;
+    }
+}
+
+@media (max-width: 980px) {
+    .card {
+        width: 280px;
+    }
+}

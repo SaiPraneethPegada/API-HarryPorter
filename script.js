@@ -1,7 +1,7 @@
 document.body.innerHTML = `
 <nav id="topSection" class="navbar navbar-dark bg-dark sticky-top">
   <div class="header container-fluid align-center flex-column ">
-    <h1 class="text-center text-white">Harry Porter API</h1>
+    <h1 class="text-center text-white">Harry Potter API</h1>
     <div class="searchfield">
       <input type="text" class="p-1 m-2 rounded-2" style="width:30vw" placeholder="Search by name" onkeyup='search()'>
     </div>
